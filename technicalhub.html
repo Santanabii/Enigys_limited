@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENIGYS LIMITED | About & Technical Hub</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        enigys: {
+                            navy: '#0A192F',      
+                            blue: '#2563EB',      
+                            emerald: '#10B981',   
+                            bgTint: '#F3F7FA',    
+                            steel: '#475569',     
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-enigys-bgTint text-enigys-navy antialiased min-h-screen flex flex-col">
+
+    <!-- Uniform Navigation Menu (Perfectly Synchronized) -->
+    <nav class="absolute top-0 left-0 w-full z-50 bg-enigys-navy border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <!-- Logo Space -->
+            <div class="w-32 h-8 flex items-center">
+                <span class="text-xs uppercase tracking-widest text-white/40 font-bold font-mono"></span>
+            </div>
+            
+            <!-- Link Navigation Paths -->
+            <div class="hidden md:flex items-center space-x-10 text-base font-medium text-white/90">
+                <a href="index.html" class="hover:text-white pb-1 transition opacity-80 hover:opacity-100">Home</a>
+                <a href="technicalhub.html" class="text-enigys-emerald border-b-2 border-enigys-emerald pb-1 transition">Technical Hub</a>
+                <a href="projects.html" class="hover:text-white pb-1 transition opacity-80 hover:opacity-100">Track Record</a>
+                <a href="contact.html" class="hover:text-white pb-1 transition opacity-80 hover:opacity-100">Contact & RFQ</a>
+            </div>
+
+            <a href="contact.html" class="inline-flex items-center justify-center px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white border border-white/30 rounded-full hover:bg-white hover:text-enigys-navy transition duration-300 backdrop-blur-sm">
+                Get In Touch
+            </a>
+        </div>
+    </nav>
+
+    <!-- VoltEra-Style Dark Editorial Hero Section -->
+    <header class="relative bg-enigys-navy text-white pt-52 pb-32 overflow-hidden border-b border-white/10">
+        <!-- Integrated Image 1: Treated with Luminosity and Gradient Overlay -->
+        <div class="absolute inset-0 z-0 opacity-25 mix-blend-luminosity bg-cover bg-center" style="background-image: url('jason-mavrommatis-nyL-rzwP-Mk-unsplash.jpg');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-enigys-navy via-enigys-navy/85 to-enigys-navy z-0"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-end relative z-10">
+            <div class="lg:col-span-8 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1 text-xs font-mono tracking-widest uppercase text-enigys-emerald bg-white/5 border border-white/10 rounded-full">
+                    // 01 . Operational Framework
+                </div>
+                <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-[1.05] max-w-4xl">
+                    Engineering <br>with Absolute <span class="text-transparent bg-clip-text bg-gradient-to-r from-enigys-blue to-enigys-emerald">Precision</span>
+                </h1>
+            </div>
+            <div class="lg:col-span-4 lg:text-right">
+                <p class="text-gray-400 text-base md:text-lg font-light max-w-sm lg:ml-auto leading-relaxed border-l-2 lg:border-l-0 lg:border-r-2 border-enigys-emerald pl-4 lg:pl-0 lg:pr-4">
+                    A comprehensive overview of our corporate core mandate, executive governance, and field instrumentation fleet.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- VoltEra Grid Structural Blueprint Section -->
+    <section class="max-w-7xl mx-auto px-6 py-24 w-full relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 border-t border-slate-300 pt-12">
+            
+            <!-- Column 1: Core Meta Info -->
+            <div class="lg:col-span-4 space-y-8">
+                <div class="space-y-3">
+                    <span class="text-xs font-mono font-bold uppercase tracking-widest text-enigys-blue block">[ Corporate Identity ]</span>
+                    <h2 class="text-3xl font-extrabold text-enigys-navy tracking-tight leading-none">The Mandate</h2>
+                </div>
+                <div class="p-6 bg-white rounded-2xl border border-slate-200/60 shadow-sm">
+                    <p class="text-5xl font-black text-enigys-blue tracking-tighter">2017</p>
+                    <p class="text-[11px] uppercase tracking-widest font-mono font-bold text-enigys-steel mt-1">Incorporation Benchmarks</p>
+                    <p class="text-sm text-enigys-steel font-light mt-4 leading-relaxed">
+                        Established to deliver premium engineering integration, converting legacy operations into fully certified, modern energy systems.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Column 2 & 3: Structural Content Grid Split -->
+            <div class="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-2xl border border-slate-200/60 shadow-sm flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <span class="text-xs font-mono text-enigys-emerald font-bold">// 01 . PHILOSOPHY</span>
+                        <h3 class="text-2xl font-extrabold text-enigys-navy tracking-tight">Our Mission Statement</h3>
+                        <p class="text-sm text-enigys-steel font-light leading-relaxed">
+                            To transform traditional energy and electrical architectures across East Africa into streamlined, highly efficient, and regulatory-compliant power networks. We build systems optimized for absolute runtime fidelity.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-slate-200/60 shadow-sm flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <span class="text-xs font-mono text-enigys-blue font-bold">// 02 . ENGAGEMENT</span>
+                        <h3 class="text-2xl font-extrabold text-enigys-navy tracking-tight">Technical Execution</h3>
+                        <p class="text-sm text-enigys-steel font-light leading-relaxed">
+                            We specialize in multi-scale Procurement, Engineering Construction (EPC), Investment-Grade energy auditing, commercial solar utility transitions, decentralized micro-grid design matrices, and medical asset life-cycle execution modules.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Executive Leadership Directory -->
+    <section class="bg-white py-24 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 w-full">
+            <div class="mb-16 border-l-4 border-enigys-blue pl-6 space-y-2">
+                <span class="text-xs font-mono tracking-widest text-enigys-steel uppercase block">Executive Governance</span>
+                <h2 class="text-4xl font-extrabold text-enigys-navy tracking-tight">Technical Leadership Roster</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Leader 1 -->
+                <div class="p-8 bg-enigys-bgTint rounded-2xl border border-slate-200 flex flex-col justify-between group hover:border-enigys-blue transition duration-300">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-12 h-12 bg-enigys-navy text-white rounded-xl flex items-center justify-center transition group-hover:bg-enigys-blue duration-300">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"></path>
+                                </svg>
+                            </div>
+                            <span class="text-[10px] font-mono bg-white border border-slate-300 px-2 py-0.5 rounded text-enigys-steel">LEAD AUDITOR</span>
+                        </div>
+                        <div>
+                            <h3 class="font-extrabold text-xl text-enigys-navy tracking-tight">Walter Kiplangat Korir</h3>
+                            <p class="text-xs text-enigys-blue font-mono font-bold uppercase mt-1">Managing Director / Lead Engineer</p>
+                        </div>
+                        <p class="text-sm text-enigys-steel font-light leading-relaxed">
+                            Over 12 years of professional experience in energy management, electrical systems engineering, and infrastructure projects across East Africa. Holds a BSc in Electrical Engineering from the University of Nairobi. Licensed as an EPRA Class A Auditor and T3 Solar Specialist.
+                        </p>
+                    </div>
+                    <div class="flex gap-2 pt-6 border-t border-slate-200 mt-6 text-[10px] font-mono font-bold text-enigys-steel">
+                        <span class="bg-white px-2 py-1 rounded border">EPRA CLASS A</span>
+                        <span class="bg-white px-2 py-1 rounded border">AEE CERTIFIED CEM</span>
+                    </div>
+                </div>
+
+                <!-- Leader 2 -->
+                <div class="p-8 bg-enigys-bgTint rounded-2xl border border-slate-200 flex flex-col justify-between group hover:border-enigys-emerald transition duration-300">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-12 h-12 bg-enigys-navy text-white rounded-xl flex items-center justify-center transition group-hover:bg-enigys-emerald duration-300">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"></path>
+                                </svg>
+                            </div>
+                            <span class="text-[10px] font-mono bg-white border border-slate-300 px-2 py-0.5 rounded text-enigys-steel">OPERATIONS RUNTIME</span>
+                        </div>
+                        <div>
+                            <h3 class="font-extrabold text-xl text-enigys-navy tracking-tight">Brian Chebor Kiprop</h3>
+                            <p class="text-xs text-enigys-emerald font-mono font-bold uppercase mt-1">Technical Director / Operations Manager</p>
+                        </div>
+                        <p class="text-sm text-enigys-steel font-light leading-relaxed">
+                            An energy consultant with over 13 years of specialized experience across industrial power plants, mechanical processing lines, and international water systems in Israel and Norway. Spearheaded the prominent multi-stakeholder ADELE project in Ethiopia.
+                        </p>
+                    </div>
+                    <div class="flex gap-2 pt-6 border-t border-slate-200 mt-6 text-[10px] font-mono font-bold text-enigys-steel">
+                        <span class="bg-white px-2 py-1 rounded border">AEE CMVP</span>
+                        <span class="bg-white px-2 py-1 rounded border">KERB REGISTERED</span>
+                    </div>
+                </div>
+
+                <!-- Leader 3 -->
+                <div class="p-8 bg-enigys-bgTint rounded-2xl border border-slate-200 flex flex-col justify-between group hover:border-slate-700 transition duration-300">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-12 h-12 bg-enigys-navy text-white rounded-xl flex items-center justify-center transition group-hover:bg-slate-700 duration-300">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"></path>
+                                </svg>
+                            </div>
+                            <span class="text-[10px] font-mono bg-white border border-slate-300 px-2 py-0.5 rounded text-enigys-steel">AUTOMATION PLATFORMS</span>
+                        </div>
+                        <div>
+                            <h3 class="font-extrabold text-xl text-enigys-navy tracking-tight">Daniel Okuthe Bungey</h3>
+                            <p class="text-xs text-slate-500 font-mono font-bold uppercase mt-1">Consultant / Engineer</p>
+                        </div>
+                        <p class="text-sm text-enigys-steel font-light leading-relaxed">
+                            University of Nairobi Graduate Electrical Engineer, Class A Licensed Energy Auditor, and T3 Solar PV expert. Extensively certified in heavy industrial automation, instrumentation metering, and centralized control logics.
+                        </p>
+                    </div>
+                    <div class="flex gap-2 pt-6 border-t border-slate-200 mt-6 text-[10px] font-mono font-bold text-enigys-steel">
+                        <span class="bg-white px-2 py-1 rounded border">TRIDIUM NETWORKS</span>
+                        <span class="bg-white px-2 py-1 rounded border">INSTRUMENTATION</span>
+                    </div>
+                </div>
+
+                <!-- Leader 4 -->
+                <div class="p-8 bg-enigys-bgTint rounded-2xl border border-slate-200 flex flex-col justify-between group hover:border-teal-600 transition duration-300">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-12 h-12 bg-enigys-navy text-white rounded-xl flex items-center justify-center transition group-hover:bg-teal-600 duration-300">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"></path>
+                                </svg>
+                            </div>
+                            <span class="text-[10px] font-mono bg-white border border-slate-300 px-2 py-0.5 rounded text-enigys-steel">EBK COMPLIANCE</span>
+                        </div>
+                        <div>
+                            <h3 class="font-extrabold text-xl text-enigys-navy tracking-tight">Emmanuel Kimachas</h3>
+                            <p class="text-xs text-teal-600 font-mono font-bold uppercase mt-1">Chief Technical Officer</p>
+                        </div>
+                        <p class="text-sm text-enigys-steel font-light leading-relaxed">
+                            Registered Graduate Electrical Engineer by the Engineers Board of Kenya (EBK B8074). Experienced in running heavy manufacturing energy audits with over 70 complex industrial facilities processed.
+                        </p>
+                    </div>
+                    <div class="flex gap-2 pt-6 border-t border-slate-200 mt-6 text-[10px] font-mono font-bold text-enigys-steel">
+                        <span class="bg-white px-2 py-1 rounded border">EBK B8074</span>
+                        <span class="bg-white px-2 py-1 rounded border">CMVP SYSTEMS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calibrated Instrumentation Fleet -->
+    <section class="max-w-7xl mx-auto px-6 py-24 w-full">
+        <div class="mb-14 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+            <div class="space-y-2">
+                <span class="text-xs font-mono font-bold uppercase tracking-widest text-enigys-emerald block">// Hardware Inventory</span>
+                <h2 class="text-3xl font-extrabold text-enigys-navy tracking-tight">Calibrated Diagnostic Fleet</h2>
+            </div>
+            <span class="text-xs font-mono bg-white px-3 py-1 rounded-full border border-slate-300 text-enigys-steel shrink-0 w-max">Fully Owned Asset Base</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Tool 1 -->
+            <div class="bg-white border border-slate-200 p-8 rounded-2xl space-y-4 hover:shadow-lg transition duration-300">
+                <div class="flex justify-between items-center border-b border-slate-100 pb-4">
+                    <span class="text-[10px] font-mono font-bold px-2 py-0.5 bg-enigys-navy text-white rounded">LOG // 01</span>
+                    <span class="text-xs text-enigys-steel font-mono">CA PEL 103</span>
+                </div>
+                <h4 class="font-extrabold text-lg text-enigys-navy tracking-tight">Power & Energy Logger</h4>
+                <p class="text-sm text-enigys-steel font-light leading-relaxed">0-10,000A tracking threshold across complex AC/DC industrial layouts with automated power factor alignment tracking rules.</p>
+            </div>
+            <!-- Tool 2 -->
+            <div class="bg-white border border-slate-200 p-8 rounded-2xl space-y-4 hover:shadow-lg transition duration-300">
+                <div class="flex justify-between items-center border-b border-slate-100 pb-4">
+                    <span class="text-[10px] font-mono font-bold px-2 py-0.5 bg-enigys-blue text-white rounded">LOG // 02</span>
+                    <span class="text-xs text-enigys-steel font-mono">CA 6116N</span>
+                </div>
+                <h4 class="font-extrabold text-lg text-enigys-navy tracking-tight">17-in-1 Installation Unit</h4>
+                <p class="text-sm text-enigys-steel font-light leading-relaxed">High-tier statutory compliance tracking tool maintaining Class 0.1 precision performance thresholds across live grids.</p>
+            </div>
+            <!-- Tool 3 -->
+            <div class="bg-white border border-slate-200 p-8 rounded-2xl space-y-4 hover:shadow-lg transition duration-300">
+                <div class="flex justify-between items-center border-b border-slate-100 pb-4">
+                    <span class="text-[10px] font-mono font-bold px-2 py-0.5 bg-purple-600 text-white rounded">LOG // 03</span>
+                    <span class="text-xs text-enigys-steel font-mono">FLUKE IR</span>
+                </div>
+                <h4 class="font-extrabold text-lg text-enigys-navy tracking-tight">Thermal Diagnostic Camera</h4>
+                <p class="text-sm text-enigys-steel font-light leading-relaxed">Equipped with automatic focal planes to record micro-point connection loss heat spikes within localized switchgears.</p>
+            </div>
+            <!-- Tool 4 -->
+            <div class="bg-white border border-slate-200 p-8 rounded-2xl space-y-4 hover:shadow-lg transition duration-300">
+                <div class="flex justify-between items-center border-b border-slate-100 pb-4">
+                    <span class="text-[10px] font-mono font-bold px-2 py-0.5 bg-orange-600 text-white rounded">LOG // 04</span>
+                    <span class="text-xs text-enigys-steel font-mono">FLUKE 376</span>
+                </div>
+                <h4 class="font-extrabold text-lg text-enigys-navy tracking-tight">True-RMS Clamp Meter</h4>
+                <p class="text-sm text-enigys-steel font-light leading-relaxed">Safely logs high-amperage multi-phase circuits up to 1,000A inside specialized and hazardous operating zones.</p>
+            </div>
+            <!-- Tool 5 -->
+            <div class="bg-white border border-slate-200 p-8 rounded-2xl space-y-4 hover:shadow-lg transition duration-300">
+                <div class="flex justify-between items-center border-b border-slate-100 pb-4">
+                    <span class="text-[10px] font-mono font-bold px-2 py-0.5 bg-teal-600 text-white rounded">LOG // 05</span>
+                    <span class="text-xs text-enigys-steel font-mono">EXTECH / CEM</span>
+                </div>
+                <h4 class="font-extrabold text-lg text-enigys-navy tracking-tight">Lux Illumination Meter</h4>
+                <p class="text-sm text-enigys-steel font-light leading-relaxed">Measures complex commercial indoor luminosity grids up to 100,000 LUX to facilitate automated lighting audits.</p>
+            </div>
+            <!-- Tool 6 -->
+            <div class="bg-white border border-slate-200 p-8 rounded-2xl space-y-4 hover:shadow-lg transition duration-300">
+                <div class="flex justify-between items-center border-b border-slate-100 pb-4">
+                    <span class="text-[10px] font-mono font-bold px-2 py-0.5 bg-gray-600 text-white rounded">LOG // 06</span>
+                    <span class="text-xs text-enigys-steel font-mono">STANLEY PRO</span>
+                </div>
+                <h4 class="font-extrabold text-lg text-enigys-navy tracking-tight">Heavy Duty Hand Drill</h4>
+                <p class="text-sm text-enigys-steel font-light leading-relaxed">Industrial structural installation deployment drill utilized by field technical engineering crews for sensor mountings.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- VoltEra Clean-Tech Statutory Banner Layout -->
+    <section class="max-w-7xl mx-auto px-6 mb-24 w-full">
+        <div class="relative bg-enigys-navy text-white rounded-3xl p-8 md:p-14 overflow-hidden shadow-xl">
+            <!-- Integrated Image 2: Blended with Dark Overlay Grid Layers -->
+            <div class="absolute inset-0 z-0 opacity-20 mix-blend-overlay bg-cover bg-center" style="background-image: url('karsten-wurth-ZKWgoRUYuMk-unsplash_2.jpg');"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-enigys-navy via-enigys-navy/95 to-enigys-navy/80 z-0"></div>
+            
+            <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5 space-y-4">
+                    <span class="text-xs font-mono tracking-widest text-enigys-emerald uppercase">// Regulatory Mandate</span>
+                    <h3 class="text-3xl font-extrabold tracking-tight leading-tight">EPRA Compliance Lifecycle</h3>
+                    <p class="text-sm text-gray-400 font-light leading-relaxed">
+                        National parameters governing commercial and heavy manufacturing facilities under regional clean energy audit networks.
+                    </p>
+                </div>
+                <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div class="p-6 bg-white/5 border border-white/10 rounded-2xl space-y-2 backdrop-blur-sm">
+                        <p class="text-2xl font-black text-enigys-emerald tracking-tight">180,000 kWh</p>
+                        <p class="font-bold text-sm text-white">Consumption Limit</p>
+                        <p class="text-xs text-gray-300 font-light leading-relaxed">All industrial energy consumers exceeding this annual use framework must complete an assessment every 3 years.</p>
+                    </div>
+                    <div class="p-6 bg-white/5 border border-white/10 rounded-2xl space-y-2 backdrop-blur-sm">
+                        <p class="text-2xl font-black text-enigys-blue tracking-tight">50% Execution</p>
+                        <p class="font-bold text-sm text-white">Implementation Rate</p>
+                        <p class="text-xs text-gray-300 font-light leading-relaxed">Facility management teams must execute half of the financial energy savings milestones post-audit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Corporate Footer -->
+    <footer class="bg-enigys-navy text-white pt-24 pb-12 border-t border-white/5 mt-auto w-full">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-16 border-b border-white/10 pb-16">
+            <div class="space-y-4">
+                <span class="text-lg font-bold tracking-wider text-white">ENIGYS LIMITED</span>
+                <p class="text-gray-400 text-sm font-light leading-relaxed">
+                    A multi-disciplinary EPC framework delivering asset management solutions to heavy industry, medical sectors, and utility operators nationwide.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-xs font-bold uppercase tracking-widest text-enigys-emerald mb-6">Compliance & Core Standards</h4>
+                <ul class="space-y-3 text-sm text-gray-400 font-light">
+                    <li>EPRA Licensed Class A Energy Auditors</li>
+                    <li>NCA Registered Contractors</li>
+                    <li>HSEQ Framework (ISO 9001/14001 Alignments)</li>
+                    <li>NITA Certified Training Professionals</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-xs font-bold uppercase tracking-widest text-enigys-blue mb-6">Regional Footprint</h4>
+                <ul class="space-y-3 text-sm text-gray-400 font-light">
+                    <li>Blessed House, Thika Road, Nairobi</li>
+                    <li>P.O. Box 24122-00100, Kenya</li>
+                    <li>Direct Line: +254 736 172 007</li>
+                    <li>Inbox: info@enigysltd.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 pt-12 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500 font-mono">
+            <p>&copy; 2026 ENIGYS LIMITED. Technical Execution Engine.</p>
+            <div class="flex space-x-6">
+                <span>Kenya & East Africa Distribution</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
